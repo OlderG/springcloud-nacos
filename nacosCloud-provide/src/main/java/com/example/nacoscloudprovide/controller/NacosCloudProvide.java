@@ -16,6 +16,6 @@ public class NacosCloudProvide {
     @GetMapping(value = "/get/{string}")
     public String get(@PathVariable String string){
         System.out.println("hello nacos.");
-        return "hello nacos."+string;
+        return "hello nacos.."+string;
     }
 }
